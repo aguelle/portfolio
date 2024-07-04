@@ -1,0 +1,9 @@
+<nav class="menu ">
+    <ul class="">
+        <li [ngClass]="{'active': activeIndex === 0}" (click)="setActive(0)" ><a routerLink="/">Accueil</a></li>
+        <li [ngClass]="{'active': activeIndex === 1}" (click)="setActive(1)" ><a routerLink="/diplomes">Diplômes et Formation</a></li>
+        <li [ngClass]="{'active': activeIndex === 2}" (click)="setActive(2)" ><a routerLink="/experiences">Expériences Professionnelles</a></li>
+        <li [ngClass]="{'active': activeIndex === 3}" (click)="setActive(3)" ><a routerLink="/realisations">Réalisations</a></li>
+        <li [ngClass]="{'active': activeIndex === 5}" (click)="setActive(4)" ><a routerLink="/contact">Contact</a></li>
+    </ul>
+  </nav>
